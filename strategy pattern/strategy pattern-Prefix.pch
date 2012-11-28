@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'strategy pattern' target in the 'strategy pattern' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
