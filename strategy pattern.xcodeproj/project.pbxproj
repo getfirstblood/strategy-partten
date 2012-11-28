@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C8E58BFE1665D33100EE0E2C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		C8F4EFFB1665AF0000EBE2EB /* strategy pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "strategy pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4EFFF1665AF0000EBE2EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8F4F0021665AF0000EBE2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		C8F4EFF01665AF0000EBE2EB = {
 			isa = PBXGroup;
 			children = (
+				C8E58BFE1665D33100EE0E2C /* README.md */,
 				C8F4F0011665AF0000EBE2EB /* strategy pattern */,
 				C8F4EFFE1665AF0000EBE2EB /* Frameworks */,
 				C8F4EFFC1665AF0000EBE2EB /* Products */,
@@ -280,6 +282,7 @@
 				C8F4F00C1665AF0000EBE2EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
