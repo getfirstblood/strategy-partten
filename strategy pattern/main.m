@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "RubberDuck.h"
+#import "Fly.h"
 int main(int argc, const char * argv[])
 {
 
@@ -15,7 +16,10 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSLog(@"Hello, World!");
-        
+        RubberDuck *duck = [[[RubberDuck alloc] init] autorelease];
+        [[duck flybehavior] fly];
+        duck.flybehavior  = [[[Fly alloc] init] autorelease];
+        [duck.flybehavior fly];
     }
     return 0;
 }

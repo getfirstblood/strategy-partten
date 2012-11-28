@@ -10,6 +10,12 @@
 		C8F4F0001665AF0000EBE2EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F4EFFF1665AF0000EBE2EB /* Foundation.framework */; };
 		C8F4F0031665AF0000EBE2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4F0021665AF0000EBE2EB /* main.m */; };
 		C8F4F0071665AF0000EBE2EB /* strategy_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8F4F0061665AF0000EBE2EB /* strategy_pattern.1 */; };
+		C8F4F00F1665AFAD00EBE2EB /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4F00E1665AFAD00EBE2EB /* Duck.m */; };
+		C8F4F0131665B0EF00EBE2EB /* Fly.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4F0121665B0EF00EBE2EB /* Fly.m */; };
+		C8F4F0161665B12200EBE2EB /* Quck.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4F0151665B12200EBE2EB /* Quck.m */; };
+		C8F4F01B1665B93600EBE2EB /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4F01A1665B93600EBE2EB /* RubberDuck.m */; };
+		C8F4F01E1665B9B300EBE2EB /* NoFly.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4F01D1665B9B300EBE2EB /* NoFly.m */; };
+		C8F4F0211665BAA200EBE2EB /* NomalDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4F0201665BAA200EBE2EB /* NomalDuck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +37,19 @@
 		C8F4F0021665AF0000EBE2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8F4F0051665AF0000EBE2EB /* strategy pattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "strategy pattern-Prefix.pch"; sourceTree = "<group>"; };
 		C8F4F0061665AF0000EBE2EB /* strategy_pattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = strategy_pattern.1; sourceTree = "<group>"; };
+		C8F4F00D1665AFAD00EBE2EB /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Duck.h; path = ../Duck.h; sourceTree = "<group>"; };
+		C8F4F00E1665AFAD00EBE2EB /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Duck.m; path = ../Duck.m; sourceTree = "<group>"; };
+		C8F4F0111665B0EF00EBE2EB /* Fly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fly.h; sourceTree = "<group>"; };
+		C8F4F0121665B0EF00EBE2EB /* Fly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fly.m; sourceTree = "<group>"; };
+		C8F4F0151665B12200EBE2EB /* Quck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quck.m; sourceTree = "<group>"; };
+		C8F4F0171665B3CA00EBE2EB /* Protocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocal.h; sourceTree = "<group>"; };
+		C8F4F0181665B8A100EBE2EB /* Quck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quck.h; sourceTree = "<group>"; };
+		C8F4F0191665B93600EBE2EB /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
+		C8F4F01A1665B93600EBE2EB /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
+		C8F4F01C1665B9B300EBE2EB /* NoFly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoFly.h; sourceTree = "<group>"; };
+		C8F4F01D1665B9B300EBE2EB /* NoFly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoFly.m; sourceTree = "<group>"; };
+		C8F4F01F1665BAA200EBE2EB /* NomalDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NomalDuck.h; sourceTree = "<group>"; };
+		C8F4F0201665BAA200EBE2EB /* NomalDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NomalDuck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +92,7 @@
 		C8F4F0011665AF0000EBE2EB /* strategy pattern */ = {
 			isa = PBXGroup;
 			children = (
+				C8F4F0101665AFB300EBE2EB /* Class */,
 				C8F4F0021665AF0000EBE2EB /* main.m */,
 				C8F4F0061665AF0000EBE2EB /* strategy_pattern.1 */,
 				C8F4F0041665AF0000EBE2EB /* Supporting Files */,
@@ -86,6 +106,26 @@
 				C8F4F0051665AF0000EBE2EB /* strategy pattern-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8F4F0101665AFB300EBE2EB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C8F4F00D1665AFAD00EBE2EB /* Duck.h */,
+				C8F4F00E1665AFAD00EBE2EB /* Duck.m */,
+				C8F4F0111665B0EF00EBE2EB /* Fly.h */,
+				C8F4F0121665B0EF00EBE2EB /* Fly.m */,
+				C8F4F0181665B8A100EBE2EB /* Quck.h */,
+				C8F4F0151665B12200EBE2EB /* Quck.m */,
+				C8F4F0171665B3CA00EBE2EB /* Protocal.h */,
+				C8F4F0191665B93600EBE2EB /* RubberDuck.h */,
+				C8F4F01A1665B93600EBE2EB /* RubberDuck.m */,
+				C8F4F01C1665B9B300EBE2EB /* NoFly.h */,
+				C8F4F01D1665B9B300EBE2EB /* NoFly.m */,
+				C8F4F01F1665BAA200EBE2EB /* NomalDuck.h */,
+				C8F4F0201665BAA200EBE2EB /* NomalDuck.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +180,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F4F0031665AF0000EBE2EB /* main.m in Sources */,
+				C8F4F00F1665AFAD00EBE2EB /* Duck.m in Sources */,
+				C8F4F0131665B0EF00EBE2EB /* Fly.m in Sources */,
+				C8F4F0161665B12200EBE2EB /* Quck.m in Sources */,
+				C8F4F01B1665B93600EBE2EB /* RubberDuck.m in Sources */,
+				C8F4F01E1665B9B300EBE2EB /* NoFly.m in Sources */,
+				C8F4F0211665BAA200EBE2EB /* NomalDuck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
